@@ -79,6 +79,12 @@ box-shadow:15px 15px 40px rgba(0,0,0,0.15);
     .carousel-caption p{
         width:100%;
     }
+    .card{
+        margin-bottom:30px;
+    }
+    .img-area img{
+        width:100%;
+    }
 }
 @media only screen and (max-width:767px){
     .navbar-nav{
@@ -97,5 +103,11 @@ box-shadow:15px 15px 40px rgba(0,0,0,0.15);
         width:100%;
         line-height:1.6;
         font-size:12px;
+    }
+    .about-text{
+        padding-top:50px;
+    }
+    .card{
+        margin-bottom:30px;
     }
 }
