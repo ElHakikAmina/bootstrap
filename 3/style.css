@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@400;500;700&family=Poppins:wght@300;400;500&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+:root{
+    --green:#16db93;
+    --green-dark:#13bc7e;
+    --light-grey:#F1f4f6;
+}
+*{
+    font-family:'Roboto',sans-serif;
+}
+/* misc stylings*/
+ul li{
+    list-style-type: none;
+}
+.container{
+    max-width:1200px;
+}
+.display-1{
+    letter-spacing:1px;
+}
+.bg-green{
+    background-color: var(--green) !important;
+}
+.btn{
+    border:2px solid #fff;
+    border-radius:1.5rem;
+    padding:0.6rem 0;
+    width:160px;
+}
+
+/* header*/
+header{
+    height:100vh;
+}
