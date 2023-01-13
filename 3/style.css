@@ -71,3 +71,13 @@ header{
 .phone-img img{
     width: 500px;
 }
+/* section 6 */
+#sec-6{
+    background: linear-gradient(rgba(22,219,147,0.9),rgba(22,219,147,0.9)),url(img/jack-wilson.jpg)
+    center/cover no-repeat;
+    
+}
+#sec-6 .circle-icon{
+    width:95px;
+    height:95px;
+}
