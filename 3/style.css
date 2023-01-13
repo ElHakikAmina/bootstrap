@@ -26,8 +26,48 @@ ul li{
     padding:0.6rem 0;
     width:160px;
 }
+.bg-grey{
+    background-color: var(--light-grey);
+}
+.circle-icon{
+    width:55px;
+    height:55px;
+    border-radius:50%;
+    background-color:var(--green);
+}
+.lh-lg{
+    line-height: 1.7 !important;
+}
+.btn-green{
+    background-color: var(--green);
+    color: #fff;
+    padding: 0.55rem 0;
+    width:140px;
+}
+.btn-green:hover{
+    color:var(--green);
+    background-color: #fff;
+    border-color: var(--green);
+}
+.text-green{
+    color: var(--green);
+}
 
 /* header*/
 header{
     height:100vh;
+}
+.navbar-brand .fa{
+    font-size:1.3rem;
+}
+.nav-icons p{
+    font-size:1rem;
+    margin-right:0.6rem;
+}
+.btn-header:hover{
+    background-color:#fff;
+    color:var(--green) !important;
+}
+.phone-img img{
+    width: 500px;
 }
